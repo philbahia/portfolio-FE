@@ -1,3 +1,21 @@
-.navbar.navbar-expand-lg.bg-secondary {
-    background-color: green;
+.navbar.navbar-expand-lg.bg-primary {
+    background-color: grey !important;
+}
+
+i.fa-brands.fa-twitter.fa-lg:hover {
+    color: blue;
+}
+
+i.fa-brands.fa-facebook-f.fa-lg:hover {
+    color: blue;
+}
+
+i.fa-brands.fa-linkedin.fa-lg:hover {
+    color: red;
+}
+
+.list-group {
+
+    --bs-list-group-bg: transparent;
+    --bs-list-group-border-color: none;
 }
