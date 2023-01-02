@@ -1,5 +1,22 @@
+body {
+    background-image: url(../img/20210505_153145.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+
+}
+
+
 .navbar.navbar-expand-lg.bg-primary {
     background-color: grey !important;
+}
+
+
+i.fa-brands.fa-twitter.fa-lg,
+i.fa-brands.fa-facebook-f.fa-lg,
+i.fa-brands.fa-linkedin.fa-lg,
+i.fa-solid.fa-user.fa-lg {
+    color: #fff;
 }
 
 i.fa-brands.fa-twitter.fa-lg:hover {
@@ -14,8 +31,15 @@ i.fa-brands.fa-linkedin.fa-lg:hover {
     color: red;
 }
 
+
 .list-group {
 
     --bs-list-group-bg: transparent;
     --bs-list-group-border-color: none;
+}
+
+
+section.about {
+    top: 10rem;
+    margin-top: 10rem;
 }
