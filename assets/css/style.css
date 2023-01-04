@@ -1,21 +1,39 @@
 body {
-    background-image: url(../img/20210505_153145.jpg);
+    background-image: url(../img/pexels-johannes-plenio-1103970.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     min-height: 100vh;
 
 }
 
+header {
+    margin-top: 9rem;
+}
 
-.navbar.navbar-expand-lg.bg-primary {
-    background-color: grey !important;
+section.panel {
+    margin-top: 9rem;
+}
+
+.nav-link {
+    color: #030381;
+    border: 0;
+}
+
+.navbar {
+    top: 0;
+}
+
+.navbar.navbar-expand-lg.bg-secondary {
+    background-color: #130a91 !important;
+    z-index: 0;
 }
 
 
 i.fa-brands.fa-twitter.fa-lg,
 i.fa-brands.fa-facebook-f.fa-lg,
 i.fa-brands.fa-linkedin.fa-lg,
-i.fa-solid.fa-user.fa-lg {
+i.fa-solid.fa-user.fa-lg,
+i.fa-solid.fa-user-lock.fa-lg {
     color: #fff;
 }
 
@@ -31,6 +49,9 @@ i.fa-brands.fa-linkedin.fa-lg:hover {
     color: red;
 }
 
+i.fa-solid.fa-user-lock.fa-lg:hover {
+    color: yellow;
+}
 
 .list-group {
 
@@ -38,8 +59,19 @@ i.fa-brands.fa-linkedin.fa-lg:hover {
     --bs-list-group-border-color: none;
 }
 
+section.dashboard {
+    margin-top: 9rem;
+}
 
 section.about {
     top: 10rem;
     margin-top: 10rem;
+}
+
+section.educacion,
+section.proyecto {
+    background-image: url(/assets/img/20180525_214734.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
 }
